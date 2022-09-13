@@ -12,4 +12,7 @@ function imienazwisko (tekst = "") {
   return wynik;
 }
 
+reverseimienazwisko = imienazwisko.reverse();
+
 console.log(imienazwisko(imie)+" "+imienazwisko(nazwisko));
+console.log(reverseimienazwisko)
